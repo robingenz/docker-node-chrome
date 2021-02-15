@@ -12,12 +12,16 @@ Pull from Docker Registry:
 ### Build image
 
 Build from GitHub:  
-`docker build -t https://github.com/robingenz/docker-node-chrome github.com/robingenz/docker-node-chrome`
+```
+docker build -t robingenz/docker-node-chrome github.com/robingenz/docker-node-chrome
+```
 
 ### Run image
 
 Run the docker image:  
-`docker run -it github.com/robingenz/docker-node-chrome bash`
+```
+docker run -it robingenz/docker-node-chrome bash
+```
 
 ## Questions / Issues
 
